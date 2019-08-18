@@ -1,2 +1,0 @@
-# moviepedia
-Created with CodeSandbox
