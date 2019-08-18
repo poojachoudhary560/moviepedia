@@ -1,5 +1,13 @@
 <template>
-<p>hello</p>
+  <v-container v-if="loading">
+    <div class="text-xs-center">
+      <v-progress-circular
+      indeterminate
+      :size="150"
+      :width="8"
+      ></v-progress-circular>
+    </div>
+  </v-container>
 </template>
 
 <script>
