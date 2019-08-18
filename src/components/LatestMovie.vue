@@ -28,6 +28,7 @@ export default {
       console.log(response);
       this.wholeResponse = response.data.Search;
       this.loading = false;
+      console.log(this.loading);
     })
     .catch(error => {
       console.log("def");
